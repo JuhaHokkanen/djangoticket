@@ -1,1 +1,3 @@
-# djangoticket
+# Djangoticket
+
+Helppokäyttöinen ja kevyt tikettijärjestelmä it-tukeen.
