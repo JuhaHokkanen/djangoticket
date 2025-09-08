@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Confirm delete</h2>
+<p>{{ object }}</p>
+<form method="post">{% csrf_token %}<button>Yes, delete</button></form>
+{% endblock %}

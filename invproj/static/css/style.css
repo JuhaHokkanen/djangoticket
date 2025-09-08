@@ -1,0 +1,62 @@
+/* Yleinen asettelu */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Otsikot */
+h2 {
+  color: #1a4d8f;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+}
+
+/* Navigointi */
+header nav {
+  background-color: #1a4d8f;
+  padding: 10px;
+}
+header nav a, header nav button {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+header nav a:hover, header nav button:hover {
+  text-decoration: underline;
+}
+
+/* Taulukot */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+table th {
+  background-color: #e9e9e9;
+}
+
+/* Painikkeet */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #45a049;
+}
